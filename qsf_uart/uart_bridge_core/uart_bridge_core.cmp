@@ -1,0 +1,12 @@
+	component uart_bridge_core is
+		port (
+			clk_clk       : in  std_logic                    := 'X'; -- clk
+			led_export    : out std_logic_vector(1 downto 0);        -- export
+			reset_reset_n : in  std_logic                    := 'X'; -- reset_n
+			uart_txd      : out std_logic;                           -- txd
+			uart_rxd      : in  std_logic                    := 'X'; -- rxd
+			uart_cts      : in  std_logic                    := 'X'; -- cts
+			uart_rts      : out std_logic                            -- rts
+		);
+	end component uart_bridge_core;
+

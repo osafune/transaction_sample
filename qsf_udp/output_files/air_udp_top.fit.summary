@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Dec  1 04:51:17 2022
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : air_udp_top
+Top-level Entity Name : air_udp_top
+Family : Cyclone IV E
+Device : EP4CE6E22C8
+Timing Models : Final
+Total logic elements : 2,040 / 6,272 ( 33 % )
+    Total combinational functions : 1,951 / 6,272 ( 31 % )
+    Dedicated logic registers : 738 / 6,272 ( 12 % )
+Total registers : 744
+Total pins : 17 / 92 ( 18 % )
+Total virtual pins : 0
+Total memory bits : 65,536 / 276,480 ( 24 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

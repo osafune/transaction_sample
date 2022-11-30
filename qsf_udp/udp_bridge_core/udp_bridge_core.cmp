@@ -1,0 +1,17 @@
+	component udp_bridge_core is
+		port (
+			clk_clk       : in  std_logic                     := 'X';             -- clk
+			ethio_enable  : in  std_logic                     := 'X';             -- enable
+			ethio_status  : out std_logic_vector(2 downto 0);                     -- status
+			ipaddr_value  : in  std_logic_vector(31 downto 0) := (others => 'X'); -- value
+			led_export    : out std_logic_vector(1 downto 0);                     -- export
+			macaddr_value : in  std_logic_vector(47 downto 0) := (others => 'X'); -- value
+			reset_reset_n : in  std_logic                     := 'X';             -- reset_n
+			rmii_clk      : in  std_logic                     := 'X';             -- clk
+			rmii_rxd      : in  std_logic_vector(1 downto 0)  := (others => 'X'); -- rxd
+			rmii_crs_dv   : in  std_logic                     := 'X';             -- crs_dv
+			rmii_txd      : out std_logic_vector(1 downto 0);                     -- txd
+			rmii_tx_en    : out std_logic                                         -- tx_en
+		);
+	end component udp_bridge_core;
+
